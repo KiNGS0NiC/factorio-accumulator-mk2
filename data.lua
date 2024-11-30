@@ -7,6 +7,7 @@ accumulator_prototype.name = "accumulator-mk2"
 accumulator_prototype.icon = "__accumulator-mk2__/graphics/icons/accumulator-mk2.png"
 accumulator_prototype.minable = {mining_time = 0.1, result = "accumulator-mk2"}
 accumulator_prototype.flags = {"placeable-neutral", "player-creation"}
+accumulator_prototype.fast_replaceable_group = "accumulator"
 accumulator_prototype.drawing_box_vertical_extension = 0.5
 accumulator_prototype.corpse = "accumulator-remnants"
 accumulator_prototype.dying_explosion = "accumulator-explosion"
@@ -36,6 +37,7 @@ local item = {
     stack_size = 50,
     place_result = "accumulator-mk2",
     icon = "__accumulator-mk2__/graphics/icons/accumulator-mk2.png",
+    subgroup = "energy",
     order = "e[accumulator]-a[accumulator]",
     inventory_move_sound = item_sounds.electric_large_inventory_move,
     pick_sound = item_sounds.electric_large_inventory_pickup,
