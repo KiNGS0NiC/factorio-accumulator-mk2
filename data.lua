@@ -6,6 +6,9 @@ accumulator_prototype.type = "accumulator"
 accumulator_prototype.name = "accumulator-mk2"
 accumulator_prototype.icon = "__accumulator-mk2__/graphics/icons/accumulator-mk2.png"
 accumulator_prototype.minable = {mining_time = 0.1, result = "accumulator-mk2"}
+accumulator_prototype.drawing_box_vertical_extension = 0.5
+accumulator_prototype.corpse = "accumulator-remnants"
+accumulator_prototype.dying_explosion = "accumulator-explosion"
 accumulator_prototype.max_health = 200
 accumulator_prototype.collision_box = {{-0.9, -0.9}, {0.9, 0.9}}
 accumulator_prototype.selection_box = {{-1, -1}, {1, 1}}
