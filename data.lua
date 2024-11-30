@@ -6,6 +6,7 @@ accumulator_prototype.type = "accumulator"
 accumulator_prototype.name = "accumulator-mk2"
 accumulator_prototype.icon = "__accumulator-mk2__/graphics/icons/accumulator-mk2.png"
 accumulator_prototype.minable = {mining_time = 0.1, result = "accumulator-mk2"}
+accumulator_prototype.flags = {"placeable-neutral", "player-creation"}
 accumulator_prototype.drawing_box_vertical_extension = 0.5
 accumulator_prototype.corpse = "accumulator-remnants"
 accumulator_prototype.dying_explosion = "accumulator-explosion"
