@@ -1,9 +1,9 @@
 {
     "name": "accumulator-mk2",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "title": "Accumulator MK2",
     "description": "Adds an upgraded version of the accumulator that can store 10 times as much energy.",
     "author": "KiNG_S0NiC",
     "factorio_version": "2.0",
-    "dependencies": ["space-age >= 2.0.14"]
+    "dependencies": ["space-age >= 2.0.32"]
   }
