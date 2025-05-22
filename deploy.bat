@@ -2,7 +2,7 @@
 setlocal
 
 set "name=accumulator-mk2"
-set "version=1.0.1"
+set "version=1.1.0"
 set "source_files=info.json data.lua thumbnail.png graphics.lua"
 set "target_folder=target\%name%_%version%"
 set "zip_file_name=%name%_%version%.zip"
