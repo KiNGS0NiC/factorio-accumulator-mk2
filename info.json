@@ -5,5 +5,5 @@
     "description": "Adds an upgraded version of the accumulator that can store 10 times as much energy.",
     "author": "KiNG_S0NiC",
     "factorio_version": "2.0",
-    "dependencies": ["space-age >= 2.0.32"]
+    "dependencies": ["space-age >= 2.0.47"]
   }
