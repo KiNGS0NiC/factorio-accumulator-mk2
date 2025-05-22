@@ -61,6 +61,7 @@ local recipe = {
     energy_required = 5.0,
     subgroup = "energy",
     icon = "__accumulator-mk2__/graphics/icons/accumulator-mk2.png",
+    category = "electronics"
     ingredients = {
         {type = "item", name = "accumulator", amount = 1},
         {type = "item", name = "supercapacitor", amount = 5},
